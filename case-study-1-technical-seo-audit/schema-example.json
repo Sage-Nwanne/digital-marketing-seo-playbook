@@ -1,0 +1,12 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Sample Product",
+  "image": "https://example.com/product.jpg",
+  "description": "High-quality example product for SEO schema demo.",
+  "sku": "12345",
+  "brand": {
+    "@type": "Brand",
+    "name": "DemoBrand"
+  }
+}

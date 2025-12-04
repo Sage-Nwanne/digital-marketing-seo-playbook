@@ -6,6 +6,17 @@ I specialize in bridging the gap between **software engineering and SEO**, apply
 
 ---
 
+## Case Study Index
+
+| Case Study | Summary | Skills Demonstrated |
+|------------|---------|---------------------|
+| [Technical SEO Audit](./case-study-1-technical-seo-audit/) | Identified crawl issues, metadata gaps, and Core Web Vitals problems; implemented structured data and site architecture fixes | Screaming Frog, Lighthouse, JSON-LD Schema, GSC |
+| [Content Strategy Plan](./case-study-2-content-strategy/) | Created keyword clusters, 3-month content roadmap, and internal linking strategy for SaaS platform | Keyword Research, Content Architecture, Sitemap Analysis |
+| [Performance Optimization](./case-study-3-performance-optimization/) | Reduced LCP by 56%, implemented lazy-loading and JavaScript optimizations for marketplace app | PageSpeed, Core Web Vitals, Performance Engineering |
+| [Automation Tools](./tools/) | Built metadata checker, SEO audit scripts, and technical playbook | Node.js, Automation, Scripting |
+
+---
+
 ## Tools & Techniques
 
 | Category | Tools & Methods |
@@ -145,4 +156,4 @@ Whether it's diagnosing crawl issues, optimizing Core Web Vitals, or building co
 
 ## Contact
 
-Interested in collaborating or have questions about any of these case studies? Feel free to reach out.# digital-marketing-seo-playbook
+Interested in collaborating or have questions about any of these case studies? Feel free to reach out.

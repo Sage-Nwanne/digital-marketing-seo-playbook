@@ -4,6 +4,19 @@ A systematic approach to technical SEO that combines engineering rigor with sear
 
 ---
 
+## Quick Reference: Problem → Solution Mapping
+
+| Problem | Artifact / Tool | Location |
+|---------|-----------------|----------|
+| Need a quick technical audit | Technical SEO Checklist | [`technical-seo-checklist.md`](./technical-seo-checklist.md) |
+| Need to scan metadata at scale | Metadata Audit Script | [`metadata-audit-script.js`](./metadata-audit-script.js) |
+| Need a 90-day SEO roadmap | This playbook (Strategy → Execute) | Sections 1-6 below |
+| Need to measure SEO success | Measurement Framework | Section 7 below |
+| Need CI/CD integration for SEO | Deployment Workflow | Section 8 below |
+| Need ongoing review process | Review Cadence | Section 9 below |
+
+---
+
 ## Table of Contents
 
 1. [Audit Methodology](#1-audit-methodology)

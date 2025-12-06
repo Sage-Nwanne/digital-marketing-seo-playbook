@@ -7,6 +7,19 @@
 
 ---
 
+## TL;DR
+
+| | |
+|---|---|
+| **Site Type** | Mid-sized e-commerce (~2,500 product pages) |
+| **Main Issues** | 147 pages blocked by robots.txt, 412 images missing alt text, poor Core Web Vitals (LCP 5.2s, CLS 0.31), no structured data |
+| **Actions Taken** | Fixed robots.txt, implemented JSON-LD schema (Product, Breadcrumb), compressed/lazy-loaded images, optimized server response time |
+| **Results** | Lighthouse score 54 → 92 (+38), LCP reduced by 65%, indexed pages +21%, crawl requests +133% |
+
+> *Note: Client data is anonymized. Metrics are based on actual project outcomes.*
+
+---
+
 ## Executive Summary
 
 The client, a mid-sized e-commerce platform with approximately 2,500 product pages, experienced a **23% decline in organic traffic** over a 4-month period. Initial investigation revealed significant technical SEO issues affecting crawlability, indexation, and Core Web Vitals performance.

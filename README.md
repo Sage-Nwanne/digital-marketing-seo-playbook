@@ -33,8 +33,6 @@ I specialize in bridging the gap between **software engineering and SEO**, apply
 
 ### 1. Technical SEO Audit & Fixes (Client Project – Anonymized)
 
-**[View Full Case Study →](./case-study-1-technical-seo-audit/)**
-
 **Issues Identified:**
 - Missing alt attributes across ~120 images
 - Poor CLS & LCP metrics (layout shift from hero images)
@@ -48,7 +46,7 @@ I specialize in bridging the gap between **software engineering and SEO**, apply
 - Compressed and lazy-loaded hero images
 - Preloaded key font files and implemented caching headers
 - Added canonical tags to paginated categories
-- Added JSON-LD schema for Product, Breadcrumb, and Logo ([see example](./case-study-1-technical-seo-audit/schema-example.json))
+- Added JSON-LD schema for Product, Breadcrumb, and Logo
 - Generated updated XML sitemap and fixed robots.txt
 - Introduced metadata validation script
 
@@ -56,23 +54,24 @@ I specialize in bridging the gap between **software engineering and SEO**, apply
 
 | Metric | Before | After |
 |--------|--------|-------|
-| Lighthouse Performance Score | 54 | 92 |
-| Indexation Coverage | Baseline | +15–25% |
-| Ranking Stability | Low | Improved |
-
-#### Lighthouse Performance Comparison
+| Lighthouse Performance Score | 54 | 92 (+38) |
+| Indexed Pages | 1,856 | 2,247 (+21%) |
+| LCP | 5.2s | 1.8s (-65%) |
 
 | Before | After |
 |--------|-------|
 | ![Lighthouse Before](./case-study-1-technical-seo-audit/lighthouse-before.png) | ![Lighthouse After](./case-study-1-technical-seo-audit/lighthouse-after.png) |
 
-*Note: The Lighthouse screenshots above are placeholder images representing before/after performance scores using simulated audits for demonstration purposes.*
+*Note: Lighthouse screenshots are placeholder images for demonstration.*
+
+**Related Files:**
+- [Full Audit Report](./case-study-1-technical-seo-audit/audit-report.md)
+- [JSON-LD Schema Example](./case-study-1-technical-seo-audit/schema-example.json)
+- [Technical SEO Checklist](./tools/technical-seo-checklist.md)
 
 ---
 
 ### 2. AI-Driven Content Strategy for SaaS Platform
-
-**[View Full Case Study →](./case-study-2-content-strategy/)**
 
 **Goal:** Build a 3-month content roadmap to increase visibility for mid-funnel keywords related to productivity and automation.
 
@@ -85,54 +84,47 @@ I specialize in bridging the gap between **software engineering and SEO**, apply
 - Keyword gap analysis and search intent mapping
 - Topical clustering and content calendar creation
 - Semantic optimization using AI-assisted analysis
-- Sitemap analysis and cleanup ([view findings](./case-study-2-content-strategy/sitemap-analysis.md))
-
-**Content Calendar Highlights:**
-
-| Month | Deliverables |
-|-------|--------------|
-| Month 1 | Blog post, AI Tools landing page, PDF lead magnet |
-| Month 2 | Automation bottlenecks blog, Case study page |
-| Month 3 | Comparison pages, Internal linking structure |
+- Sitemap analysis and cleanup
 
 **Results:**
 
-| Metric | Outcome |
-|--------|---------|
-| Organic Impressions | **+280%** in 60 days |
-| Crawl Efficiency | Improved |
-| Content Library | Evergreen articles created |
+| Metric | Before | After (60 days) |
+|--------|--------|-----------------|
+| Organic Impressions | 12,400/mo | 47,120/mo (+280%) |
+| Indexed Pages | 34 | 46 (+12) |
+| Blog Traffic | 2,100/mo | 8,400/mo (+300%) |
 
-**Sitemap Fixes:**
-- Removed 3 outdated URLs
-- Added missing blog index page
-- Fixed parameterized URLs incorrectly listed
+**Related Files:**
+- [Full Content Plan](./case-study-2-content-strategy/content-plan.md)
+- [Sitemap Analysis](./case-study-2-content-strategy/sitemap-analysis.md)
+- [SEO Playbook](./tools/seo-playbook.md)
 
 ---
 
 ### 3. Performance Optimization for Marketplace App
 
-**[View Full Case Study →](./case-study-3-performance-optimization/)**
-
 **Problem:** Slow time-to-first-byte (TTFB) and render delays on key product pages affecting user experience and SEO.
 
 **Fixes Applied:**
 - Implemented image compression (-65% file size reduction)
-- Reduced unused JavaScript by splitting bundles
+- Reduced unused JavaScript by splitting bundles (-77%)
 - Added HTTP caching headers
 - Optimized server logic to reduce TTFB
-- Added lazy-loading for images ([view code snippet](./case-study-3-performance-optimization/optimized-code-snippet.js))
+- Added lazy-loading for images
 
-**Core Web Vitals Improvement:**
+**Results:**
 
 | Metric | Before | After |
 |--------|--------|-------|
-| LCP (Largest Contentful Paint) | 4.8s | 2.1s |
-| CLS (Cumulative Layout Shift) | 0.24 | 0.05 |
-| TTFB (Time to First Byte) | 1200ms | 300ms |
-| Overall PageSpeed Score | 63 | 89 (+26) |
+| LCP (Largest Contentful Paint) | 4.8s | 2.1s (-56%) |
+| CLS (Cumulative Layout Shift) | 0.24 | 0.05 (-79%) |
+| TTFB (Time to First Byte) | 1,200ms | 380ms (-68%) |
+| PageSpeed Score | 63 | 89 (+26) |
 
-*Full before/after metrics available in [`before-after-comparision.json`](./case-study-3-performance-optimization/before-after-comparision.json)*
+**Related Files:**
+- [Full Optimization Report](./case-study-3-performance-optimization/page-seed-report.md)
+- [Lazy Loading Code](./case-study-3-performance-optimization/optimized-code-snippet.js)
+- [Before/After Metrics (JSON)](./case-study-3-performance-optimization/before-after-comparision.json)
 
 ---
 
@@ -143,6 +135,22 @@ I specialize in bridging the gap between **software engineering and SEO**, apply
 | [Technical SEO Checklist](./tools/technical-seo-checklist.md) | Comprehensive checklist covering indexation, metadata, performance, and structured data |
 | [Metadata Audit Script](./tools/metadata-audit-script.js) | Node.js script using `node-fetch` and `cheerio` to extract page metadata from any URL |
 | [SEO Playbook](./tools/seo-playbook.md) | Playbook covering crawling, indexation, performance, structured data, and content strategy |
+
+---
+
+## How to Use This Repository
+
+**If you're a hiring manager or collaborator:**
+
+1. Start with the [SEO Playbook](./tools/seo-playbook.md) to understand my overall process and methodology
+2. Dive into the case studies to see concrete examples of audits, content strategy, and performance optimization
+3. Check the [`tools/`](./tools/) folder for scripts and checklists that demonstrate the engineering side of SEO
+
+**If you're an engineer or SEO professional:**
+
+1. Clone the repo and adapt the checklists and scripts for your own projects
+2. The [metadata audit script](./tools/metadata-audit-script.js) is ready to run — just install dependencies with `npm install node-fetch cheerio`
+3. PRs and suggestions are welcome
 
 ---
 

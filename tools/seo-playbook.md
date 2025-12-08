@@ -4,6 +4,36 @@ A systematic approach to technical SEO that combines engineering rigor with sear
 
 ---
 
+## SEO Process Overview
+
+```mermaid
+flowchart LR
+    A[Discovery] --> B[Audit]
+    B --> C[Strategy]
+    C --> D[Implementation]
+    D --> E[Measurement]
+    E --> F[Iteration]
+    F --> B
+
+    A -.- A1[Goals & Context]
+    B -.- B1[Technical + Content]
+    C -.- C1[Prioritized Roadmap]
+    D -.- D1[Schema + Content + Fixes]
+    E -.- E1[Rankings + Traffic + Conversions]
+    F -.- F1[Refine & Scale]
+```
+
+| Phase | Key Activities | Deliverables |
+|-------|----------------|--------------|
+| **Discovery** | Stakeholder interviews, goal alignment, competitive analysis | Project brief, success criteria |
+| **Audit** | Technical crawl, content inventory, backlink analysis | Audit report, issue prioritization |
+| **Strategy** | Keyword research, content planning, technical roadmap | 6-month roadmap, content calendar |
+| **Implementation** | Schema markup, content creation, technical fixes | Deployed changes, documentation |
+| **Measurement** | Rank tracking, traffic analysis, conversion monitoring | Monthly reports, dashboards |
+| **Iteration** | Performance review, strategy refinement, scaling | Updated priorities, new opportunities |
+
+---
+
 ## Quick Reference: Problem → Solution Mapping
 
 | Problem | Artifact / Tool | Location |

@@ -1,0 +1,141 @@
+{
+  "_comment": "Schema markup examples for The Morning Brew Coffee Shop",
+  
+  "LocalBusiness": {
+    "@context": "https://schema.org",
+    "@type": "CafeOrCoffeeShop",
+    "name": "The Morning Brew Coffee Shop",
+    "image": "https://themorningbrewcoffee.com/images/storefront.jpg",
+    "url": "https://themorningbrewcoffee.com",
+    "telephone": "(570) 223-4231",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "5224 Milford Rd Suite 108",
+      "addressLocality": "East Stroudsburg",
+      "addressRegion": "PA",
+      "postalCode": "18302",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 41.0345,
+      "longitude": -75.1809
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "06:00",
+        "closes": "18:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Saturday", "Sunday"],
+        "opens": "07:00",
+        "closes": "17:00"
+      }
+    ],
+    "priceRange": "$-$$",
+    "servesCuisine": ["Coffee", "Espresso", "Breakfast", "Pastries"],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "432"
+    },
+    "sameAs": [
+      "https://www.facebook.com/TheMorningBrewCoffeeShop/"
+    ]
+  },
+  
+  "Menu": {
+    "@context": "https://schema.org",
+    "@type": "Menu",
+    "name": "The Morning Brew Menu",
+    "hasMenuSection": [
+      {
+        "@type": "MenuSection",
+        "name": "Espresso Drinks",
+        "hasMenuItem": [
+          {
+            "@type": "MenuItem",
+            "name": "Signature Latte",
+            "description": "Our house espresso with steamed milk and your choice of flavor",
+            "offers": {
+              "@type": "Offer",
+              "price": "4.50",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Cappuccino",
+            "description": "Double espresso with equal parts steamed and frothed milk",
+            "offers": {
+              "@type": "Offer",
+              "price": "4.00",
+              "priceCurrency": "USD"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "MenuSection",
+        "name": "Iced Drinks",
+        "hasMenuItem": [
+          {
+            "@type": "MenuItem",
+            "name": "Iced Vanilla Latte",
+            "description": "Espresso over ice with vanilla syrup and cold milk",
+            "offers": {
+              "@type": "Offer",
+              "price": "5.00",
+              "priceCurrency": "USD"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "MenuSection",
+        "name": "Breakfast",
+        "hasMenuItem": [
+          {
+            "@type": "MenuItem",
+            "name": "Breakfast Sandwich",
+            "description": "Egg, cheese, and your choice of meat on a fresh bagel",
+            "offers": {
+              "@type": "Offer",
+              "price": "6.50",
+              "priceCurrency": "USD"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  
+  "BreadcrumbList": {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://themorningbrewcoffee.com"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Menu",
+        "item": "https://themorningbrewcoffee.com/menu"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Espresso Drinks",
+        "item": "https://themorningbrewcoffee.com/menu/espresso-drinks"
+      }
+    ]
+  }
+}
+

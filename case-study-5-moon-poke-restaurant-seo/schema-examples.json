@@ -1,0 +1,176 @@
+{
+  "_comment": "Schema markup examples for Moon Poke, Sushi & Sweets",
+  
+  "Restaurant": {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Moon Poke, Sushi & Sweets",
+    "image": "https://moonpokesushi.com/images/storefront.jpg",
+    "url": "https://moonpokesushi.com",
+    "telephone": "(570) 555-0123",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "123 Main Street",
+      "addressLocality": "East Stroudsburg",
+      "addressRegion": "PA",
+      "postalCode": "18301",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 41.0023,
+      "longitude": -75.1845
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "11:00",
+        "closes": "21:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Saturday", "Sunday"],
+        "opens": "12:00",
+        "closes": "21:00"
+      }
+    ],
+    "priceRange": "$$",
+    "servesCuisine": ["Poke", "Sushi", "Hawaiian", "Japanese", "Boba Tea"],
+    "acceptsReservations": "False",
+    "hasMenu": "https://moonpokesushi.com/menu",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5.0",
+      "reviewCount": "79"
+    }
+  },
+  
+  "Menu": {
+    "@context": "https://schema.org",
+    "@type": "Menu",
+    "name": "Moon Poke Menu",
+    "hasMenuSection": [
+      {
+        "@type": "MenuSection",
+        "name": "Signature Bowls",
+        "hasMenuItem": [
+          {
+            "@type": "MenuItem",
+            "name": "Salmon Lover Bowl",
+            "description": "Fresh Atlantic salmon, avocado, cucumber, edamame, seaweed salad over sushi rice",
+            "offers": {
+              "@type": "Offer",
+              "price": "14.99",
+              "priceCurrency": "USD"
+            },
+            "suitableForDiet": "https://schema.org/GlutenFreeDiet"
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Spicy Tuna Bowl",
+            "description": "Ahi tuna with spicy mayo, jalapeño, green onion, masago over mixed greens",
+            "offers": {
+              "@type": "Offer",
+              "price": "15.99",
+              "priceCurrency": "USD"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "MenuSection",
+        "name": "Build Your Bowl",
+        "description": "Create your perfect poke bowl with your choice of base, protein, toppings, and sauce",
+        "hasMenuItem": [
+          {
+            "@type": "MenuItem",
+            "name": "Regular Bowl (2 proteins)",
+            "offers": {
+              "@type": "Offer",
+              "price": "13.99",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Large Bowl (3 proteins)",
+            "offers": {
+              "@type": "Offer",
+              "price": "16.99",
+              "priceCurrency": "USD"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "MenuSection",
+        "name": "Boba Drinks",
+        "hasMenuItem": [
+          {
+            "@type": "MenuItem",
+            "name": "Classic Milk Tea",
+            "description": "Traditional black milk tea with tapioca pearls",
+            "offers": {
+              "@type": "Offer",
+              "price": "5.99",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Taro Milk Tea",
+            "description": "Creamy taro flavor with tapioca pearls",
+            "offers": {
+              "@type": "Offer",
+              "price": "6.49",
+              "priceCurrency": "USD"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "MenuSection",
+        "name": "Sweets",
+        "hasMenuItem": [
+          {
+            "@type": "MenuItem",
+            "name": "Mochi Ice Cream (3 pieces)",
+            "description": "Choose from green tea, mango, or strawberry",
+            "offers": {
+              "@type": "Offer",
+              "price": "4.99",
+              "priceCurrency": "USD"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  
+  "BreadcrumbList": {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://moonpokesushi.com"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Menu",
+        "item": "https://moonpokesushi.com/menu"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Signature Bowls",
+        "item": "https://moonpokesushi.com/menu/signature-bowls"
+      }
+    ]
+  }
+}
+

@@ -1,6 +1,6 @@
 # Digital Optimization Proposal: Moon Poke, Sushi & Sweets
 
-**Prepared by:** Sage Nwanne, Digital Transformation Bureau  
+**Prepared by:** Sage Nwanne, DesignedToBreakthrough
 **Date:** December 2024  
 **For:** Moon Poke, Sushi & Sweets
 
@@ -173,5 +173,5 @@ We help restaurants and local businesses:
 
 ---
 
-*Questions? Contact Sage Nwanne at [your email/phone]*
+*Questions? Contact Sage Nwanne at sage@dtbsolutions.tech/8562718586]*
 

@@ -1,6 +1,6 @@
 # Digital Optimization Proposal: Moon Poke, Sushi & Sweets
 
-**Prepared by:** Sage Nwanne, DesignedToBreakthrough
+**Prepared by:** Sage Nwanne, Designed To Breakthrough
 **Date:** December 2024  
 **For:** Moon Poke, Sushi & Sweets
 

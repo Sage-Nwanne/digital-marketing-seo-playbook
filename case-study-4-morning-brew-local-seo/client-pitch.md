@@ -1,6 +1,6 @@
 # Digital Transformation Proposal: The Morning Brew Coffee Shop
 
-**Prepared by:** Sage Nwanne, Digital Transformation Bureau  
+**Prepared by:** Sage Nwanne, Designed To Breakthrough  
 **Date:** December 2024  
 **For:** The Morning Brew Coffee Shop
 
